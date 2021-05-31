@@ -1,0 +1,290 @@
+main {
+  background: #f3f4f6;
+  grid-area: main;
+  overflow-y: auto;
+}
+
+.main__container {
+  padding: 20px 200px;
+}
+
+
+.charts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.charts__left {
+  border-radius: 5px;
+  background: #f3f4f6;
+  /* box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff; */
+}
+
+.charts__left__title {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+/* .charts__left__title  > div:nth-child(even){
+  background: #f3f4f6;
+} */
+.charts__left__title > div {
+  background-color: white;
+  padding: 25px;
+}
+
+
+.about {
+  font-size: 14px;
+  font-weight: 700;
+  color: #a5aaad;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.income{
+    float: right;
+}
+.value {
+  font-size: 30px;
+  color: #2e4a66;
+  display: inline;
+  margin-top: 25px;
+  position: relative;
+  font-weight: bold;
+}
+
+.stats{
+  display: inline;
+  margin-left: 15px;
+  border-radius: 10px;
+  background-color: #16c79a;
+  color: white;
+  font-size: 12px;
+  padding: 2px 5px;
+  margin-bottom: 35px;
+}
+
+.pb{
+  margin-top: 10px;
+  background-color:#a5aaad;;
+  border-radius: 15px;
+  height: 5px;
+}
+.factor{
+  background-color: #511281;
+  border-radius: 15px;
+  width: 60%;
+  height: 5px;
+  font-size: 0%;
+
+}
+.dull{
+  color: #a5aaad;
+  font-weight: 200;
+  font-size: 10px;
+}
+.charts__right {
+  padding: 25px;
+  border-radius: 5px;
+  background: #ffffff;
+  /* box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff; */
+}
+.charts__right__title{
+  border-bottom: solid #a5aaad;
+  border-width: thin;
+
+}
+.charts__right__title > div > h1 {
+  font-size: 24px;
+  color: #2e4a66;
+  margin-bottom: 25px;
+ 
+}
+
+.charts__right__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 20px;
+  grid-auto-rows: minmax(50px,auto);
+  padding: 0px 15px;
+}
+
+.card1 {
+  background: white;
+  padding: 25px;
+  border: solid #a5aaad;
+  border-radius: 5px;
+  border-width: thin;
+  font-size: 14px;
+}
+
+.card2 {
+  background: white;
+  padding: 25px;
+  border: solid #a5aaad;
+  border-radius: 5px;
+  border-width: thin;
+  font-size: 14px;
+}
+
+
+.Main_Header{
+  margin-top: 50px;
+  background-color: white;
+  padding: 15px;
+  font-size: 23px;
+  border-bottom: solid #a5aaad;
+  border-width: thin;
+
+}
+.Main_Header > p{
+  font-size: 12px;
+  display: inline;
+  margin-right: 15px;
+  margin-left: 22px;
+  font-weight: 600;
+  color: #a5aaad;;
+}
+.Main_Header > p:hover{
+  color: blue;
+}
+.sub_container_bottom{
+  display: grid;
+  grid-template-columns: 1fr;
+  background: #ffffff;
+  grid-auto-rows: minmax(50px,auto);
+}
+
+.sub_container_bottom > div:nth-child(even){
+  background: #f3f4f6;
+}
+
+
+.items > i{
+  margin-top:15px;
+  margin-left: 15px;
+  color: #a5aaad;
+}
+.items .demo1
+{
+  margin-top:20px;
+  margin-left: 15px;
+  color: #a5aaad;
+  font-size: 11px;
+  font-weight: 700;
+  position: relative;
+
+}
+.items .demo2
+{
+  margin-top:20px;
+  margin-left: 270px;
+  color: #a5aaad;
+  font-size: 11px;
+  font-weight: 700;
+  position: relative;
+
+}
+.items .demo3
+{
+  margin-top:20px;
+  margin-left: 130px;
+  color: #a5aaad;
+  font-size: 11px;
+  font-weight: 700;
+  position: relative;
+}
+
+
+.items .demo4
+{
+  margin-top:20px;
+  margin-left: 130px;
+  color: #a5aaad;
+  font-size: 11px;
+  font-weight: 700;
+  position: relative;
+}
+
+
+.items .demo5
+{
+  margin-top:20px;
+  margin-left: 135px;
+  color: #a5aaad;
+  font-size: 11px;
+  font-weight: 700;
+  position: relative;
+
+}
+.items .name{
+  margin-top:20px;
+  margin-left: 15px;
+  color: black;
+  font-size: 11px;
+  font-weight: 600;
+  position: relative;
+}
+
+.items .date{
+  margin-top:20px;
+  margin-left: 250px;
+  color: black;
+  font-size: 11px;
+  font-weight: 600;
+  position: relative;
+}
+
+.items .code{
+  margin-top:20px;
+  margin-left: 100px;
+  color: black;
+  font-size: 11px;
+  font-weight: 600;
+  position: relative;
+}
+.success{
+  display: inline;
+  margin-left: 100px;
+  border-radius: 100px;
+  background-color: #16c79a;
+  color: white;
+  font-size: 13px;
+  padding: 2px 5px;
+  position: relative;
+}
+
+.items .desc{
+  margin-top:20px;
+  margin-left: 100px;
+  color: black;
+  font-size: 11px;
+  font-weight: 600;
+  position: relative;
+}
+
+
+@media only screen and (max-width: 855px) {
+  .sub_container_bottom {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 0;
+  }
+
+  .charts {
+    grid-template-columns: 1fr;
+    margin-top: 30px;
+    width: 100%;
+    padding: 0px;
+  }
+
+  .main__container {
+    padding: 0px;
+  }
+  
+}
